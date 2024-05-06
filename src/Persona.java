@@ -33,4 +33,7 @@ public class Persona {
     public void setFechaNacimiento(String fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
+    public void mensaje(){
+        System.out.println("Mi nombre es: " + this.nombre + " , Mi edad es: " + this.edad);
+    }
 }
