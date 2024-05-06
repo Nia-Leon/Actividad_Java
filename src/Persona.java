@@ -11,6 +11,7 @@ public class Persona implements Trabajador{
     public void RealizarTarea(){
         System.out.print("Realizando tarea laboral");
     }
+
     public String getNombre() {
         return nombre;
     }
