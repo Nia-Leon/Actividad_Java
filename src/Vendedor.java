@@ -12,4 +12,8 @@ public class Vendedor extends Empleado{
     public void setComision(double comision) {
         Comision = comision;
     }
+
+    public double CalcularSalario(){
+        return super.CalcularSalario() + Comision;
+    }
 }
