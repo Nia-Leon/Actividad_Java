@@ -22,6 +22,9 @@ public class Persona {
             System.out.println("La edad no puede ser negativa");
         }
     }
+    public void calcularFechaNacimiento() {
+        System.out.println("Su anio de nacimiento fue en el: " + (2024 - this.edad));
+    }
 
     public String getFechaNacimiento() {
         return fechaNacimiento;
