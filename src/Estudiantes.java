@@ -1,4 +1,4 @@
-public class Estudiantes extends Persona{
+public class Estudiantes extends Persona {
     private Integer Grado;
 
     public Estudiantes(String nombre, int edad, String fechaNacimiento, Integer grado) {
