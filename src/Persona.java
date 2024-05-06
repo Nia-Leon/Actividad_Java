@@ -16,7 +16,11 @@ public class Persona {
     }
 
     public void setEdad(int edad) {
-        this.edad = edad;
+        if (edad >= 0) {
+            this.edad = edad;
+        } else {
+            System.out.println("La edad no puede ser negativa");
+        }
     }
 
     public String getFechaNacimiento() {
